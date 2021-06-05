@@ -1,7 +1,7 @@
 import './password-strength-bar.scss';
 
 import React from 'react';
-import { Translate } from 'react-jhipster';
+import { Translate } from '../../../config/language';
 
 export interface IPasswordStrengthBarProps {
   password: string;

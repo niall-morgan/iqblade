@@ -1,7 +1,7 @@
 import axios from 'axios';
 import dayjs from 'dayjs';
 
-import { TranslatorContext } from 'react-jhipster';
+import { TranslatorContext } from '../../config/language';
 
 export const ACTION_TYPES = {
   SET_LOCALE: 'locale/SET_LOCALE',

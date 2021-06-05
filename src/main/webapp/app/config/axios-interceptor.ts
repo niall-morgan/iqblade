@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { Storage } from 'react-jhipster';
+import { Storage } from '../shared/util/storage-util';
 
 import { SERVER_API_URL } from 'app/config/constants';
 

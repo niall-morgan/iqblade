@@ -2,9 +2,9 @@ import axios from 'axios';
 import sinon from 'sinon';
 import configureStore from 'redux-mock-store';
 import thunk from 'redux-thunk';
-import { TranslatorContext } from 'react-jhipster';
+import { TranslatorContext } from '../../config/language';
 
-import locale, { setLocale, ACTION_TYPES } from 'app/shared/reducers/locale';
+import locale, { ACTION_TYPES, setLocale } from 'app/shared/reducers/locale';
 
 describe('Locale reducer tests', () => {
   it('should return the initial state', () => {

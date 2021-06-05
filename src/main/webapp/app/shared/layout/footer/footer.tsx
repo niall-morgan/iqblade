@@ -1,7 +1,7 @@
 import './footer.scss';
 
 import React from 'react';
-import { Translate } from 'react-jhipster';
+import { Translate } from '../../../config/language';
 import { Col, Row } from 'reactstrap';
 
 const Footer = props => (

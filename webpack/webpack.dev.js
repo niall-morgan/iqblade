@@ -47,7 +47,7 @@ module.exports = options =>
       contentBase: './target/classes/static/',
       proxy: [
         {
-          context: ['/api', '/services', '/management', '/swagger-resources', '/v2/api-docs', '/v3/api-docs', '/h2-console', '/auth'],
+          context: ['/api', '/services', '/management', '/h2-console', '/auth'],
           target: `http${options.tls ? 's' : ''}://localhost:8081`,
           secure: false,
           changeOrigin: options.tls,

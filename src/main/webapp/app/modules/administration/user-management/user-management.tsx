@@ -1,8 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { connect } from 'react-redux';
 import { Link, RouteComponentProps } from 'react-router-dom';
-import { Button, Table, Row, Badge } from 'reactstrap';
-import { Translate, TextFormat, JhiPagination, JhiItemCount, getSortState } from 'react-jhipster';
+import { Badge, Button, Row, Table } from 'reactstrap';
+import { Translate } from '../../../config/language';
+import { TextFormat } from 'app/config/text-format';
+import { getSortState, JhiItemCount, JhiPagination } from '../../../shared/tables';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import { APP_DATE_FORMAT } from 'app/config/constants';

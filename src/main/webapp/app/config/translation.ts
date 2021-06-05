@@ -1,4 +1,5 @@
-import { TranslatorContext, Storage } from 'react-jhipster';
+import { Storage } from '../shared/util/storage-util';
+import { TranslatorContext } from '../config/language';
 
 import { setLocale } from 'app/shared/reducers/locale';
 
