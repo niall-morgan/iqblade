@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
-import { Translate, translate } from 'react-jhipster';
+import React, { useEffect, useState } from 'react';
+import { Translate, translate } from '../../../config/language';
 import { connect } from 'react-redux';
-import { AvForm, AvField } from 'availity-reactstrap-validation';
-import { Row, Col, Alert, Button } from 'reactstrap';
+import { AvField, AvForm } from 'availity-reactstrap-validation';
+import { Alert, Button, Col, Row } from 'reactstrap';
 
 import PasswordStrengthBar from 'app/shared/layout/password/password-strength-bar';
 import { IRootState } from 'app/shared/reducers';

@@ -1,4 +1,5 @@
-import { isPromise, translate } from 'react-jhipster';
+import { isPromise } from '../shared/util/promise-utils';
+import { translate } from '../config/language';
 import { toast } from 'react-toastify';
 
 const addErrorAlert = (message, key?, data?) => {

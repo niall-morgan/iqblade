@@ -1,5 +1,5 @@
 import React from 'react';
-import { Translate } from 'react-jhipster';
+import { Translate } from '../../../config/language';
 import { connect } from 'react-redux';
 
 export interface ITrackerPageProps {

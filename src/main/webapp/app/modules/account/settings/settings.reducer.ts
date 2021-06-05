@@ -1,6 +1,7 @@
 import axios from 'axios';
-import { translate, Storage } from 'react-jhipster';
-import { REQUEST, SUCCESS, FAILURE } from 'app/shared/reducers/action-type.util';
+import { translate } from 'app/config/language';
+import { Storage } from 'app/shared/util/storage-util';
+import { FAILURE, REQUEST, SUCCESS } from 'app/shared/reducers/action-type.util';
 import { getSession } from 'app/shared/reducers/authentication';
 
 export const ACTION_TYPES = {

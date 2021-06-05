@@ -1,7 +1,7 @@
 import axios from 'axios';
-import { translate } from 'react-jhipster';
+import { translate } from 'app/config/language';
 
-import { REQUEST, SUCCESS, FAILURE } from 'app/shared/reducers/action-type.util';
+import { FAILURE, REQUEST, SUCCESS } from 'app/shared/reducers/action-type.util';
 
 export const ACTION_TYPES = {
   UPDATE_PASSWORD: 'account/UPDATE_PASSWORD',

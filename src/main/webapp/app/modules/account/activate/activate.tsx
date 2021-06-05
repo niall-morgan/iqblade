@@ -1,8 +1,9 @@
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
 import { Link, RouteComponentProps } from 'react-router-dom';
-import { Row, Col, Alert } from 'reactstrap';
-import { Translate, getUrlParameter } from 'react-jhipster';
+import { Alert, Col, Row } from 'reactstrap';
+import { getUrlParameter } from 'app/shared/util/url-utils';
+import { Translate } from '../../../config/language';
 
 import { IRootState } from 'app/shared/reducers';
 import { activateAction, reset } from './activate.reducer';

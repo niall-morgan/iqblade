@@ -2,11 +2,11 @@ import SockJS from 'sockjs-client';
 
 import Stomp from 'webstomp-client';
 import { Observable } from 'rxjs';
-import { Storage } from 'react-jhipster';
+import { Storage } from '../shared/util/storage-util';
 
 import { ACTION_TYPES as ADMIN_ACTIONS } from 'app/modules/administration/administration.reducer';
 import { ACTION_TYPES as AUTH_ACTIONS } from 'app/shared/reducers/authentication';
-import { SUCCESS, FAILURE } from 'app/shared/reducers/action-type.util';
+import { FAILURE, SUCCESS } from 'app/shared/reducers/action-type.util';
 
 let stompClient = null;
 

@@ -49,4 +49,6 @@ const rootReducer = combineReducers<IRootState>({
   loadingBar,
 });
 
+export * from './redux-action.type';
+
 export default rootReducer;

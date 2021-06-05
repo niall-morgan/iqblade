@@ -2,7 +2,10 @@ import React, { useEffect, useState } from 'react';
 import { connect } from 'react-redux';
 import { Link, RouteComponentProps } from 'react-router-dom';
 import { Button, Row, Table } from 'reactstrap';
-import { getSortState, JhiItemCount, JhiPagination, Translate } from 'react-jhipster';
+import { Translate } from '../../config/language';
+import { JhiItemCount, JhiPagination } from '../../shared/tables';
+import { getSortState } from '../../shared/util/pagination-utils';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import { IRootState } from 'app/shared/reducers';

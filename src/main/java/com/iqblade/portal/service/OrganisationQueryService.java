@@ -1,6 +1,7 @@
 package com.iqblade.portal.service;
 
 import com.iqblade.portal.domain.Organisation;
+import com.iqblade.portal.domain.Organisation_;
 import com.iqblade.portal.repository.OrganisationRepository;
 import com.iqblade.portal.service.criteria.OrganisationCriteria;
 import java.util.List;
