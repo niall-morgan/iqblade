@@ -42,7 +42,9 @@
     "jwtSecretKey": "NmZmZGFhYzQ0NmIwOWJmYzM1MmQ5ZjJlYjVhNDhmYTczZmQzMzkyNmRiYTE1Y2E2ZWMwZDUzYTRlY2YzYjViMzIzZDY5YWZlYWQyNTZkZmY0ZWQ2Y2Y4ZGNhNmRlYzUyNjNkYTkzZGMzMzhjYjQ5MjEzZGIzNWQ4MWU1ZWRmMDU=",
     "clientTheme": "none",
     "clientThemeVariant": "",
-    "reactive": false
+    "reactive": false,
+    "lastLiquibaseTimestamp": 1622887850000,
+    "entities": ["Organisation"]
   },
   "git-provider": "GitHub",
   "git-company": "niall-morgan",

@@ -1,0 +1,28 @@
+{
+  "fields": [
+    {
+      "fieldName": "companyNumber",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "companyName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "website",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "service": "serviceClass",
+  "dto": "no",
+  "jpaMetamodelFiltering": true,
+  "readOnly": false,
+  "pagination": "pagination",
+  "name": "Organisation",
+  "changelogDate": "20210605101050"
+}

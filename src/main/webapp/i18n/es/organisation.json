@@ -1,0 +1,27 @@
+{
+  "iqBladeApp": {
+    "organisation": {
+      "home": {
+        "title": "Organisations",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Organisation",
+        "createOrEditLabel": "Crear o editar Organisation",
+        "notFound": "Ningún Organisations encontrado"
+      },
+      "created": "Un nuevo Organisation ha sido creado con el identificador {{ param }}",
+      "updated": "Un Organisation ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Organisation ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Organisation {{ id }}?"
+      },
+      "detail": {
+        "title": "Organisation"
+      },
+      "id": "ID",
+      "companyNumber": "Company Number",
+      "companyName": "Company Name",
+      "website": "Website",
+      "status": "Status"
+    }
+  }
+}
