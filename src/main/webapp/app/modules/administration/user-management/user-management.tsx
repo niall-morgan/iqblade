@@ -3,8 +3,9 @@ import { connect } from 'react-redux';
 import { Link, RouteComponentProps } from 'react-router-dom';
 import { Badge, Button, Row, Table } from 'reactstrap';
 import { Translate } from '../../../config/language';
+import { JhiItemCount, JhiPagination } from '../../../shared/tables';
 import { TextFormat } from 'app/config/text-format';
-import { getSortState, JhiItemCount, JhiPagination } from '../../../shared/tables';
+import { getSortState } from 'app/shared/util/pagination-utils';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import { APP_DATE_FORMAT } from 'app/config/constants';
